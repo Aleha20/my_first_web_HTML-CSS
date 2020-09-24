@@ -1,4 +1,39 @@
 .container4 {
+  width: 100%;
+  height: 465px;
+  background-color: #304268;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
   border: 2px solid purple;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 30px;
+}
+.container__resoucer {
+  border: 2px solid yellow;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 30px;
+}
+.container__socialmedia {
+  border: 2px solid red;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 30px;
+}
+.container__copyright {
+  font-size: 14px;
+
+  border: 2px solid orange;
+}
+.container__love {
+  font-size: 14px;
+  border: 2px solid greenyellow;
+}
+.heart {
+  color: #f26002;
 }
