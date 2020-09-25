@@ -214,4 +214,16 @@
     text-align: center;
     padding: 7px;
   }
+  .container3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .why {
+    grid-column: span 3;
+  }
+  .more-buttom {
+    grid-column: 2 / 3;
+  }
+  .botton-grid {
+    grid-column: 2 / 3;
+  }
 }
