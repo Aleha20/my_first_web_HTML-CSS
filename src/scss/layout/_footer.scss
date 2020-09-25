@@ -1,10 +1,8 @@
 .container4 {
   width: 100%;
-  // height: 465px;
   background-color: #304268;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-  border: 2px solid purple;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -14,9 +12,7 @@
   position: relative;
 }
 .container__resourcers {
-  border: 2px solid yellow;
   margin-top: 60px;
-
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 30px;
@@ -24,28 +20,24 @@
   text-transform: uppercase;
 }
 .container__resourcers--style {
-  color: #ffffff;
-
-  text-decoration: none;
-}
-.container__social-media {
-  border: 2px solid red;
   margin-bottom: 30px;
   font-size: 16px;
+  color: #ffffff;
   line-height: 30px;
+  list-style: none;
+  text-decoration: none;
   text-transform: uppercase;
 }
-.container__social-media--style {
-  color: #ffffff;
+.container__resourcers--style {
   text-decoration: none;
+  list-style: none;
+  display: flex;
 }
 .container__copyright {
   font-size: 14px;
-  border: 2px solid orange;
 }
 .container__love {
   font-size: 14px;
-  border: 2px solid greenyellow;
 }
 .heart {
   color: #f26002;
@@ -57,8 +49,50 @@
   background-color: #ffffff;
   width: 45px;
   height: 45px;
-  border: 2px solid green;
   border-radius: 50%;
   text-align: center;
-  padding: 7px;
+  padding: 10px;
+}
+@media all and (min-width: 768px) and (max-width: 1280px) {
+  .container4 {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    list-style: none;
+  }
+  .container__resourcers {
+    margin-top: 45px;
+
+    text-decoration: none;
+    list-style: none;
+    flex-direction: column-reverse;
+  }
+  .container__resourcers--style {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+  }
+  .container__social-media {
+    margin-bottom: 30px;
+    margin-top: 45px;
+
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: column-reverse;
+  }
+  .container__copyright {
+    font-size: 14px;
+    flex-direction: column;
+  }
+  .reverse2 {
+    flex-direction: column-reverse;
+    align-items: initial;
+  }
 }
