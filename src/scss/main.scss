@@ -38,7 +38,6 @@
 }
 .paragraph {
   width: 90.62%;
-  height: 120px;
   margin-top: 15px;
   margin-left: 4.68%;
   margin-bottom: 30px;
@@ -155,7 +154,6 @@
   }
   .paragraph {
     font-size: 20px;
-    margin-bottom: 135px;
   }
   .looking {
     width: 89.8%;
@@ -169,13 +167,13 @@
   }
   .paragraph {
     width: 90.62%;
-    height: 120px;
     margin-top: 15px;
-    // margin-bottom: 135px;
     font-size: 20px;
     color: #4a4a4a;
   }
-
+  .letsGo {
+    width: 11.8%;
+  }
   .container3 {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -183,6 +181,9 @@
     grid-column: span 3;
   }
   .more-buttom {
+    grid-column: 2 / 3;
+  }
+  .botton-grid {
     grid-column: 2 / 3;
   }
 }

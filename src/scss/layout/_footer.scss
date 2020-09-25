@@ -28,11 +28,15 @@
   text-decoration: none;
   text-transform: uppercase;
 }
-.container__resourcers--style {
+.container__social-media {
+  margin-bottom: 30px;
+  margin-top: 45px;
+  line-height: 30px;
+  text-transform: uppercase;
   text-decoration: none;
   list-style: none;
-  display: flex;
 }
+
 .container__copyright {
   font-size: 14px;
 }
@@ -67,7 +71,6 @@
   }
   .container__resourcers {
     margin-top: 45px;
-
     text-decoration: none;
     list-style: none;
     flex-direction: column-reverse;
@@ -78,21 +81,27 @@
     display: flex;
   }
   .container__social-media {
-    margin-bottom: 30px;
-    margin-top: 45px;
-
+    margin-top: -70px;
     line-height: 30px;
     text-transform: uppercase;
     text-decoration: none;
     list-style: none;
-    flex-direction: column-reverse;
   }
   .container__copyright {
     font-size: 14px;
     flex-direction: column;
   }
-  .reverse2 {
-    flex-direction: column-reverse;
-    align-items: initial;
+  .footer-design {
+    list-style: none;
+  }
+  .footer-design1 {
+    list-style: none;
+  }
+  .footer-desing2 {
+    list-style: none;
+  }
+  .scroll-up {
+    position: absolute;
+    left: 50%;
   }
 }
