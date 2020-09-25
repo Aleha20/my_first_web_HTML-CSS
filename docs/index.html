@@ -3,43 +3,121 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Módulo 1 evaluación final</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
-
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-      </main>
-
-      <a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a>
-
-      <a class="link__github" href="https://github.com" target="_blank">GitHub</a>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a>
-
+    <header class="container0">
+      <section class="container1">
+        <nav class="menu-container">
+          <a href="https://adalab.es/" title="Página de adalab" target="blank">      
+            <img class="ico-menu" src="./assets/images/ico-menu.svg" alt="ico-menu" />
+          </a>
+        </nav>
+        <div>
+        <h1 class="titlecontainer">Anonymous Proxy</h1>
+        <h2 class="subtitle">In hac habitasse pla Copy</h2>
+        <a href="#reasons-to-buy" name="3reason" title="cambiar">
+        <small class="go-down">
+          <img
+            class="ico-scroll-down"
+            src="./assets/images/ico-scroll-down.svg"
+            alt="Va a la sección 3 reasons to purchase"
+          />
         </small>
-      </footer>
+      </a>
+      </div>
+        </section>
+      </section>
+    </header>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
+    <main class="offers">
+      <section class="container2">
+        <div>
+        <h4 class="tips">Insomnia Tips</h4>
+        <h2 class="looking">Looking through a <br />window</h2>
+        <p class="paragraph">
+          Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
+          luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+        </p>
+        <input class="letsGo" type="submit" value="Go" />
+
+      </section>
+      <section id="reasons-to-buy" class="container3">
+        <h2 class="why">3 Reasons to purchase</h2>
+        <div class="articles">
+        <article>
+          <div>
+            <h3 class="why1">Ut sed metus</h3>
+            <p class="definition1">Lorem ipsum dolor sit amet, consecteur.</p>
+          </div>
+        </article>
+        <article>
+          <div>
+            <h3 class="why2">Curabitur ac erat</h3>
+            <p class="definition2">Mauris mattis urna quis lorem molestie.</p>
+          </div>
+        </article>
+        <article>
+          <div>
+            <h3 class="why3">Morbi dictum</h3>
+            <p class="definition3">Aliquam in dolor et dolor tincidunt.</p>
+          </div>
+        </article>
+      </div>
+        <input class="more-buttom" type="submit" value="More Reasons" />
+        <small class="scroll-up">
+          <img
+            class="ico-scroll-up"
+            src="./assets/images/ico-arrow.svg"
+            alt="Vuelve al inicio de la página"
+          />
+        </small>
+      </section>
+    </main>
+
+
+
+    <footer class="container4">
+      <nav class="container__resoucer">
+        <ul>
+          <li>Articles</li>
+          <li>Books</li>
+          <li>Events</li>
+          <li>Reasons</li>
+          <li>Tips</li>
+        </ul>
+      </nav>
+      <nav class="container__socialmedia">
+        <ul>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>Mastodon.Social</li>
+        </ul>
+      </nav>
+      <div class="container__copyright">©2017</div>
+      <div class="container__love">
+        we <small class="heart">❤︎ </small> components
+      </div>
+    </footer>
+
   </body>
 </html>
