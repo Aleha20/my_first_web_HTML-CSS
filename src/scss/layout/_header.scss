@@ -4,17 +4,12 @@
   background-image: url("../images/cover.jpg");
   background-color: rgba(255, 255, 255, 0.5);
   background-repeat: no-repeat;
-}
-
-.container1 {
-  width: 100%;
-  height: 568px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.menu-container {
+.menu-container1 {
   width: 44px;
   height: 44px;
   position: fixed;
@@ -29,7 +24,6 @@
 }
 .titlecontainer {
   margin: 284px 15px 10px 15px;
-  border: 2px solid blue;
   width: 290px;
   height: 110px;
   font-family: "Roboto Slab", serif;
@@ -40,15 +34,15 @@
 }
 
 .subtitle {
-  width: 290px;
+  width: 90.6%;
   height: 21px;
-  margin: 10px 15px 143px 15px;
+  margin: 10px 15px 45px 15px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #ffffff;
   text-align: center;
-  border: 2px solid yellow;
 }
+
 .go-down {
   width: 45px;
   height: 45px;
@@ -56,13 +50,6 @@
   border-radius: 50%;
   align-items: center;
   position: absolute;
-  margin: -27px 137px;
-}
-
-.ico-scroll-down {
-  width: 20px;
-  height: 12px;
-  align-items: center;
-  margin-left: 10px;
-  margin-top: 14px;
+  left: 50%;
+  padding: 12px;
 }
