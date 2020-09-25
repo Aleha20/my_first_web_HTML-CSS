@@ -12,22 +12,31 @@
   text-align: center;
   line-height: 30px;
 }
-.container__resoucer {
+.container__resourcers {
   border: 2px solid yellow;
   margin-top: 60px;
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 30px;
+  text-decoration: none;
 }
-.container__socialmedia {
+.container__resourcers--style {
+  color: #ffffff;
+
+  text-decoration: none;
+}
+.container__social-media {
   border: 2px solid red;
   margin-bottom: 30px;
   font-size: 16px;
   line-height: 30px;
 }
+.container__social-media--style {
+  color: #ffffff;
+  text-decoration: none;
+}
 .container__copyright {
   font-size: 14px;
-
   border: 2px solid orange;
 }
 .container__love {
@@ -37,3 +46,31 @@
 .heart {
   color: #f26002;
 }
+
+.scroll-up {
+  margin: 0 137px;
+  align-items: center;
+  position: relative;
+  bottom: 450px;
+  background-color: #ffffff;
+  width: 45px;
+  height: 45px;
+  // border: 2px solid green;
+  border-radius: 50%;
+}
+.ico-scroll-up {
+  position: relative;
+  top: 7px;
+  left: 10px;
+  align-items: center;
+}
+
+// <a href="#reasons-to-buy" name="3reason" title="cambiar">
+//     <small class="go-down">
+//       <img
+//         class="ico-scroll-down"
+//         src="./assets/images/ico-scroll-down.svg"
+//         alt="Va a la sección 3 reasons to purchase"
+//       />
+//     </small>
+//   </a>
