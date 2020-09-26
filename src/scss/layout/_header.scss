@@ -61,20 +61,35 @@
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .titlecontainer {
+    width: 690px;
     font-size: 80px;
     line-height: 106px;
+    margin-bottom: 172px;
   }
 
   .subtitle {
     height: 32px;
     font-size: 24px;
     text-align: center;
+    margin-bottom: 30px;
   }
   .go-down {
     left: 50%;
+    margin-bottom: 45px;
   }
 }
 @media all and (min-width: 1200px) {
+  .titlecontainer {
+    width: 730px;
+    font-size: 100px;
+    line-height: 132px;
+  }
+  .subtitle {
+    height: 32px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 88px;
+  }
   .go-down {
     left: 49%;
   }
