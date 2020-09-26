@@ -12,12 +12,12 @@
   position: relative;
 }
 .container__resourcers {
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin: 60px 123px 30px 124px;
   font-size: 16px;
   line-height: 30px;
   text-decoration: none;
   text-transform: uppercase;
+  list-style: none;
 }
 .container__resourcers--style {
   margin-bottom: 30px;
@@ -29,18 +29,27 @@
   text-transform: uppercase;
 }
 .container__social-media {
-  margin-bottom: 30px;
-  margin-top: 45px;
+  margin: 0 86px 30px 87px;
+
   line-height: 30px;
   text-transform: uppercase;
   text-decoration: none;
   list-style: none;
 }
-
+.footer-design {
+  list-style: none;
+}
+.footer-design1 {
+  list-style: none;
+}
+.footer-desing2 {
+  list-style: none;
+}
 .container__copyright {
   font-size: 14px;
 }
 .container__love {
+  margin-bottom: 45px;
   font-size: 14px;
 }
 .heart {
@@ -102,7 +111,7 @@
   }
   .scroll-up {
     position: absolute;
-    left: 50%;
+    left: 48%;
   }
 }
 @media all and (min-width: 1200px) {
@@ -150,6 +159,6 @@
   }
   .scroll-up {
     position: absolute;
-    left: 50%;
+    left: 48%;
   }
 }

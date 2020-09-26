@@ -6,30 +6,24 @@
   width: 100%;
 }
 .container2 {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   height: 376px;
+  padding: 30px 15px 45px 15px;
   background-color: #ffffff;
 }
 .tips {
-  width: 28.1%;
   height: 30px;
-  margin-top: 30px;
-  margin-left: 4.68%;
-  margin-right: 67.1%;
   margin-bottom: 1px;
   font-family: "Roboto", sans-serif;
   line-height: 30px;
   font-size: 14px;
   color: #8ccbea;
+  text-transform: capitalize;
 }
 .looking {
   width: 90.62%;
   height: 60px;
-  margin-left: 4.68%;
-  margin-right: 4.68%;
-  margin-bottom: 4.68%;
+  margin-bottom: 15px;
   font-family: "Roboto Slab", serif;
   font-size: 24px;
   line-height: 30px;
@@ -38,10 +32,7 @@
 }
 .paragraph {
   width: 90.62%;
-  margin-top: 15px;
-  margin-left: 4.68%;
   margin-bottom: 30px;
-  margin-right: 4.68%;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 30px;
@@ -52,9 +43,6 @@
   height: 45px;
   border-radius: 22.5px;
   border: 2px solid #f26002;
-  margin-left: 4.68%;
-  margin-right: 71.56%;
-  margin-bottom: 30px;
   font-family: "Roboto", sans-serif;
   color: #f26002;
   font-size: 20px;
@@ -108,6 +96,8 @@
   margin-right: 21.2%;
 }
 .definition1 {
+  font-family: "Roboto", sans-serif;
+
   line-height: 30px;
   font-size: 18px;
   color: #000000;
@@ -117,7 +107,7 @@
 }
 .definition2 {
   line-height: 30px;
-
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #000000;
   margin-left: 21.8%;
@@ -126,6 +116,8 @@
 }
 .definition3 {
   line-height: 30px;
+  font-family: "Roboto", sans-serif;
+
   font-size: 18px;
   color: #000000;
   margin-left: 21.8%;
@@ -150,7 +142,7 @@
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .container2 {
     height: 330px;
-    margin-left: 5.07%;
+    padding: 30px 39px 60px 39px;
   }
   .paragraph {
     font-size: 20px;
@@ -162,9 +154,7 @@
     line-height: 45px;
     margin-bottom: 3.9%;
   }
-  br {
-    display: none;
-  }
+
   .paragraph {
     width: 90.62%;
     margin-top: 15px;
@@ -174,14 +164,12 @@
   .letsGo {
     width: 11.8%;
   }
-  .container3 {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
   .why {
     grid-column: span 3;
   }
   .more-buttom {
     grid-column: 2 / 3;
+    text-transform: capitalize;
   }
   .botton-grid {
     grid-column: 2 / 3;
@@ -190,27 +178,21 @@
 @media all and (min-width: 1200px) {
   .container2 {
     height: 360px;
+    padding: 60px 275px 60px 275px;
   }
   .tips {
-    width: 30%;
-    margin-top: 60px;
     font-size: 16px;
   }
   .looking {
-    width: 60.8%;
     height: 45px;
     font-size: 32px;
-    line-height: 45px;
   }
-  br {
-    display: none;
-  }
+
   .paragraph {
-    width: 60.8%;
     font-size: 20px;
   }
   .letsGo {
-    width: 13.3%;
+    width: 160px;
     text-align: center;
     padding: 7px;
   }
@@ -222,6 +204,7 @@
   }
   .more-buttom {
     grid-column: 2 / 3;
+    text-transform: capitalize;
   }
   .botton-grid {
     grid-column: 2 / 3;
