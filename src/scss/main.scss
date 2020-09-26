@@ -63,6 +63,7 @@
   background-color: #eff9ff;
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
 }
 .why {
@@ -165,6 +166,10 @@
   .letsGo {
     width: 11.8%;
   }
+  .container3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
   .why {
     grid-column: span 3;
   }
@@ -199,6 +204,7 @@
   }
   .container3 {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
   .why {
     grid-column: span 3;
@@ -206,8 +212,5 @@
   .more-buttom {
     grid-column: 2 / 3;
     text-transform: capitalize;
-  }
-  .botton-grid {
-    grid-column: 2 / 3;
   }
 }
