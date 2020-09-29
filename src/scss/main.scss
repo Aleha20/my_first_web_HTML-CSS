@@ -65,6 +65,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
+  align-items: center;
 }
 .why {
   font-family: "Roboto Slab", serif;
@@ -133,6 +134,7 @@
   background-color: #f26002;
   align-items: center;
   margin-bottom: 60px;
+  margin-left: 68px;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-size: 20px;
@@ -176,6 +178,7 @@
   .more-buttom {
     grid-column: 2 / 3;
     text-transform: capitalize;
+    margin: auto;
   }
   .botton-grid {
     grid-column: 2 / 3;
@@ -210,8 +213,12 @@
     grid-column: span 3;
   }
   .more-buttom {
+    grid-column: 2 / 3;
+    align-items: center;
+    margin: auto;
     text-transform: capitalize;
   }
+
   .botton-grid {
     grid-column: 2 / 3;
   }
